@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Two functions are used to store the values and compute the inverse if not
+## present
 
-## Write a short comment describing this function
+## function makeCacheMatrix is used to create a list of functions which is used
+## to set and get the values of data and its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   i<-NULL
@@ -16,7 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## function cacheSolve checks for whether the data has stored an inverse or else
+## computes it and then stores it
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
